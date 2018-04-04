@@ -18,3 +18,5 @@ For Example:
 >>> import requests
 >>> coin_api_url = 'https://api.coinmarketcap.com/v1/ticker/
 >>> response = requests.get(coin_api_url)
+>>> response_json = response.json()
+>>> response_json[0]
